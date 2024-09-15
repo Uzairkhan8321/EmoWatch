@@ -1,0 +1,494 @@
+.movieDetails_container {
+    /* height: 100vh; */
+    /* background-color: #020d18; */
+    width: 100%;
+    color: white;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.movieDetail {
+    height: 598px;
+    width: 80%;
+    margin: 0rem auto;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    
+
+}
+
+.heading_container span {
+    font-size: 2rem;
+    color: #4f5b68;
+}
+
+.movie-ratingSpan {
+    color: skyblue;
+    margin-left: 1rem;
+}
+
+.heading_container h1 {
+    font-size: 5rem;
+    font-family: 'Dosis';
+    font-weight: bold;
+    /* margin-top: 4rem; */
+}
+
+.image_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #0c1c2c;
+    padding: 1rem;
+}
+
+.trailer-btn {
+    color: white;
+    font-size: 2rem;
+    margin-top: 1.3rem;
+    background-color: #dd003f;
+    ;
+    padding: 3px 25px;
+    font-weight: bold;
+
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+
+}
+
+.trailer-btn img {
+    height: 2rem !important;
+}
+
+.image_container img {
+    height: 45rem;
+}
+
+.top_container {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 1.4rem;
+
+}
+
+
+.rating_container p {
+    font-size: 2rem;
+}
+
+.genre {
+    flex-grow: 2;
+
+}
+
+.genre span {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-inline: 0.5rem;
+    /* color: #4183C4; */
+    text-decoration: none;
+    padding: 0.4rem;
+    border-radius: 4px
+}
+
+.genre-action {
+    background-color: #f5b50a;
+    padding: 0.4rem;
+    border-radius: 4px;
+}
+
+.genre-drama {
+    background-color: green;
+
+}
+
+.genre-comedy {
+    background-color: #a6bb16;
+}
+
+.genre-sci-fi,
+.genre-scienceFiction {
+    background-color: #1692bb;
+}
+
+.genre-crime {
+    background-color: rgba(255, 0, 0, 0.789);
+}
+
+.genre-romance {
+    background-color: #F62681;
+}
+
+.genre-animation {
+    background-color: #FFC107;
+}
+
+.genre-thriller {
+    background-color: #FF5733;
+}
+
+.genre-family {
+    background-color: #00796B;
+}
+
+.genre-fantasy {
+    background-color: #8E24AA;
+}
+
+.genre-adventure {
+    background-color: #64a25f;
+}
+
+.genre-soap {
+    background-color: #FFEB3B;
+    color: #000000;
+}
+
+.genre-mystery {
+    background-color: #51478d;
+}
+.genre-war{
+    background-color:  #B71C1C;
+}
+.genre-history{
+ background-color: #795548;   
+}
+.genre-horror{
+    background-color:  #8B0000;
+}
+.movie-rating {
+    border-top: 2px solid #4f5b68;
+    border-bottom: 2px solid #4f5b68;
+    padding: 1rem;
+}
+
+.rating_container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    /* height: 100vh; */
+}
+
+.add_to_favourites_btn {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    cursor: pointer;
+
+}
+
+.add_to_favourites_btn button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    color: #dd003f;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 35px;
+
+
+}
+
+.add_to_favourites_btn img {
+    height: 4rem;
+    border: 1px solid #dd003f;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+
+.second_container {
+    background-color: #020d18;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+
+}
+
+.overview-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.overview-heading {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.overView {
+    color: #bcbfc2;
+    font-size: 2.5rem;
+    word-wrap: break-word;
+    /* background-color: rebeccapurple; */
+
+}
+
+.overview-cast {
+    display: flex;
+    gap: 2.5rem;
+
+}
+
+.overviewheading-para {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.cast-container {
+    color: white;
+    width: 30%;
+    /* padding: 1rem; */
+}
+
+.cast_list {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.1rem;
+    gap: 1rem;
+    word-wrap: break-word;
+    
+}
+
+.person_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 2;
+}
+.person_list h2{
+    font-size: 1.399rem;
+}
+.person_details{
+    display: flex;
+    flex-direction: column;
+}
+.person_details p{
+    font-size: 1rem;
+}
+.cast {
+    border-bottom: 2px solid #F62681;
+    margin-bottom: 0.5rem;
+}
+
+.overview {
+    border-bottom: 2px solid #FFC107;
+}
+
+.person_list h2 {
+    color: #4280bf;
+
+}
+
+.character {
+    color: #abb7c4;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.cast_list img {
+    width: 5rem;
+    height: 100%;
+    object-fit: cover;
+}
+
+.review-container {
+    color: white;
+    font-size: 2rem;
+    margin-top: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    /*  */
+    /* align-items: center; */
+
+}
+
+.review-card-container {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+
+.reviews {
+    margin-bottom: 1rem;
+    border-bottom: 0.2rem solid green;
+}
+
+.show-more{
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1.3rem;
+    background-color: #dd003f;
+    padding: 3px 25px;
+    font-weight: bold;
+    color: white;
+}
+.no-review-found{
+    font-size: 1rem;
+}
+@media screen and (max-width:1200px) {
+    .heading_container h1{
+        font-size: 3.9rem;
+       
+    }
+    .heading_container span{
+        font-size: 1.4999rem;
+    }
+    .movieDetail{
+        width: 85%;
+        margin: 0 auto;
+        gap: 4rem;
+
+    }
+    .overView{
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width:860px){
+    
+    .heading_container h1{
+        font-size: 3.5rem;
+
+    }
+    .heading_container span{
+        font-size: 1.2999rem;
+    }
+    .movieDetail{
+        width: 90%;
+        margin: 0 auto;
+        gap: 3rem;
+
+    }
+    .top_container{
+        gap: 3rem;
+    }
+    .rating_container p{
+        font-size: 1.6rem;
+    }
+    .genre span{
+        font-size: 1.2999rem;
+    }
+    .rating_container p{
+        font-size: 1.399rem;
+    }
+    .add_to_favourites_btn{
+        gap: 0.6rem;
+    }
+    .image_container{
+        padding: 0.8rem;
+    }
+
+    .overView{
+        font-size: 2rem;
+    }
+    .cast_list img{
+        width: 3.8rem;
+    }
+    .person_list {
+       
+        justify-content: space-between;
+        flex-grow: 2;
+    }
+
+    .top_part{
+        gap: 0.5rem;
+    }
+    
+}
+
+@media screen and (max-width:760px){
+    .movieDetail{
+        width: 95%;
+        margin: 0 auto;
+        gap: 2rem;
+    }
+      .heading_container h1{
+        font-size: 3rem;
+
+
+    }
+    .top_container{
+        gap: 2rem;
+    }
+    .heading_container span{
+        font-size: 1.1rem;
+    }
+  
+ 
+    .add_to_favourites_btn{
+        gap: 0.1rem;
+    }
+   
+}
+
+
+@media screen and (max-width:640px) {
+
+    .movieDetail{
+        /* display: grid; */
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 15rem;
+    }
+    .rating_container{
+     gap: 2rem;   
+     
+    }
+    .overviewheading-para{
+        width: 100%;
+    }
+    .overview-container{
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        
+    }
+    
+    .overview-cast{
+        padding: 2rem;
+        margin-top: 10rem;
+        
+        flex-direction: column;
+
+        margin-top: 4rem;
+    }
+    .cast-container{
+        width: 100%;
+    }
+
+
+   
+
+}

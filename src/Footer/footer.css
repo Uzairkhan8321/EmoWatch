@@ -1,0 +1,48 @@
+footer {
+
+    /* height: 30vh; */
+    background-image: url('../images/footerbg.jpg');
+    /* filter: brightness(1.2) hue-rotate(180deg); */
+
+}
+
+.footer_Container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10rem 1rem;
+    color: white;
+    font-size: 2rem;
+
+
+
+}
+
+.footer_logo {
+    font-size: 5rem;
+    font-family: Mova;
+    color: white;
+    text-align: center;
+}
+
+.footer_span {
+    color: #dd003f;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.socials img {
+    width: 5rem;
+    cursor: pointer;
+}
